@@ -1,0 +1,33 @@
+:root {}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+}
+
+.color-light-gray {
+    background-color: #e5e5e5;
+}
+
+/* Header */
+
+nav {
+    min-width: 375px;
+}
+
+nav img {
+    height: 40px;
+}
+
+.my-search-bar {
+    height: 35px;
+}
+
+/* Main */
+
+/* Footer */
