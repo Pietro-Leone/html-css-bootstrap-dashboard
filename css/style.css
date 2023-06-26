@@ -20,7 +20,7 @@ body {
 /* Header */
 
 nav {
-    min-width: 375px;
+    min-width: 405px;
     max-height: 65px;
 }
 
@@ -44,6 +44,10 @@ nav img {
     width: 20px;
     text-align: center;
     margin-right: .5rem;
+}
+
+.bg-color-badge {
+    background-color: #165bba;
 }
 
 /* Footer */
