@@ -34,6 +34,16 @@ nav img {
 
 /* Main */
 
+.main-container {
+    height: calc(100vh - 65px);
+}
+
+main {
+    overflow-x: hidden;
+}
+
+
+
 .sidebar-bg {
     background-image: url(../img/sidebar-bg.png);
     background-color: #11283e;
@@ -50,4 +60,13 @@ nav img {
     background-color: #165bba;
 }
 
+
 /* Footer */
+
+/* Media Query */
+@media screen and (max-width:768px) {
+    .display-none-table {
+        display: none;
+    }
+
+}
