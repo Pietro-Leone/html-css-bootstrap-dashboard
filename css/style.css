@@ -42,7 +42,9 @@ main {
     overflow-x: hidden;
 }
 
-
+.offcanvas {
+    --bs-offcanvas-width: 900px
+}
 
 .sidebar-bg {
     background-image: url(../img/sidebar-bg.png);
@@ -60,8 +62,6 @@ main {
     background-color: #165bba;
 }
 
-
-/* Footer */
 
 /* Media Query */
 @media screen and (max-width:768px) {
