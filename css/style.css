@@ -8,6 +8,9 @@
 
 body {
     height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .color-light-gray {
@@ -18,16 +21,29 @@ body {
 
 nav {
     min-width: 375px;
+    max-height: 65px;
 }
 
 nav img {
-    height: 40px;
+    max-height: 38px;
 }
 
 .my-search-bar {
-    height: 35px;
+    height: 38px;
 }
 
 /* Main */
+
+.sidebar-bg {
+    background-image: url(../img/sidebar-bg.png);
+    background-color: #11283e;
+}
+
+.side-icon {
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    margin-right: .5rem;
+}
 
 /* Footer */
