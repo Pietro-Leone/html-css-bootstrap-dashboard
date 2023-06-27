@@ -67,6 +67,9 @@ main {
     background-color: #165bba;
 }
 
+.line-height-table {
+    line-height: 33px;
+}
 
 /* Media Query */
 @media screen and (max-width:768px) {
